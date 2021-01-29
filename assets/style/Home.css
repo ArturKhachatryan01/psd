@@ -1,0 +1,402 @@
+.intro_background{
+    position: absolute;
+    filter: grayscale(20%);
+    width: 100%;
+    height: 660px;
+    background-image: url(../images/Home_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -10;
+}
+
+.intro_background:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #2d6e70cc;
+}
+
+/*home and about header colors. Start*/
+.header{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #00000099 100%);
+}
+
+.header_inner{
+    border-bottom: 1px solid #ffffff;
+}
+
+.middle_line{
+    background-color: #ffffff;
+}
+
+.fa.fa-phone.fa-rotate-90 {
+    color: #c5cdcd;
+}
+
+.header_tel, .nav > a{
+    color: #ffffff;
+}
+
+.nav a:hover {
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff;
+}
+
+.nav input[type=button]{
+    background-color: #7e8f8f;
+}
+
+.nav input[type="button"]:hover {
+    color: #7e8f8f;
+    background: #ffffff;
+}
+/*home and about header colors. End*/
+
+.intro {
+    height: 575px;
+}
+
+.intro_inner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro_inner h1 {
+    font-size: 38px;
+    line-height: 21px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.intro_inner p {
+    width: 513px;
+    height: 38px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+
+.intro_inner input[type="button"] {
+    width: 186px;
+    height: 50px;
+    border-radius: 2px;
+    background-color: #6fb048;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+}
+
+.intro_inner input[type="button"]:hover{
+    color: #6fb048;
+    background-color: #ffffff;
+}
+
+.intro_inner > *{
+    margin-bottom: 20px;
+}
+
+/* home and about features. Start*/
+.features {
+    padding: 95px 0 125px 0;
+}
+
+.inner_features > p{
+    text-align: center;
+}
+
+.tools {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.tool {
+    width: 310px;
+    margin: 0 10px 30px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner_features.description{
+    max-width: 440px;
+}
+
+.tool .description{
+    text-align: center;
+}
+
+.tool .ico_title{
+    margin: 20px 0;
+}
+
+.features_list {
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature {
+    width: 513px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.img_and_title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.img_and_title img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+/* home and about features. Start*/
+
+
+/* home responsive_ready. Start*/
+.responsive_ready {
+    background-color: #eef1ec;
+}
+
+.inner_responsive_ready {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.responsive_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.img_mobile {
+    display: flex;
+    margin-right: 50px;
+}
+
+.responsive_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.responsive_info .description{
+    width: 500px;
+}
+
+.responsive_info > * {
+    margin-bottom: 20px;
+}
+
+.responsive_mark {
+    margin: 10px 0;
+}
+
+.mark_text{
+    position: relative;
+    left: 30px;
+}
+
+.mark_text:before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -30px;
+    background-image: url(../images/icons/check_mark.png);
+}
+/* home responsive_ready. End*/
+
+
+/* home responsive_continued. Start*/
+.inner_responsive_continued {
+    margin: 130px 0;
+}
+
+.respons_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.respons_text{
+    margin-right: 30px;
+}
+
+.respons_text .quote {
+    width: 545px;
+    font-size: 22px;
+    line-height: 40px;
+    color: #83a7a5;
+    font-weight: 300;
+    font-family: "Merriweather", sans-serif;
+    margin-bottom: 30px;
+}
+
+.respons_text .author, .respons_text .position {
+    font-size: 14px;
+    line-height: 22px;
+    color: #6fb048;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+/* home responsive_continued. End*/
+
+/* home details. Start*/
+.details {
+    position: relative;
+    height: 505px;
+    padding: 50px 0;
+    background-image: url(../images/map2.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right center;
+    background-color: #EEF1EC;
+}
+
+.details_title {
+    max-width: 500px;
+}
+
+.details_title *{
+    margin-bottom: 20px;
+}
+/* home details. End*/
+
+
+/* home pricing. Start*/
+.pricing_and_plan {
+    margin: 90px 0;
+}
+
+.plans {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.plan {
+    width: 245px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #c1d3d1;
+    padding: 15px 0;
+}
+
+.plan_name {
+    font-size: 15px;
+    line-height: 20px;
+    color: #6fb048;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.plan_price {
+    position: relative;
+    font-size: 65px;
+    line-height: 108px;
+    color: #0f5f5c;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+p.plan_price:after {
+    content: '/month';
+    position: absolute;
+    transform: translate(0%, 75%);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0f5f5c;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.plan_conditions {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 28px;
+    color: #83a7a5;
+    font-family: "Roboto", sans-serif;
+    white-space: pre-line;
+    text-align: center;
+}
+
+.plan input[type="button"] {
+    width: 140px;
+    height: 42px;
+    border-radius: 2px;
+    background-color: #83a7a5;
+    font-size: 13px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.plan input[type="button"]:hover{
+    color: #83a7a5;
+    background-color: #ffffff;
+}
+
+.included_plans {
+    margin: 70px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan_benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.plan_benefits .description {
+    position: relative;
+    width: 300px;
+    margin-left: 35px;
+    font-size: 14px;
+    line-height: 36px;
+    color: #83a7a5;
+    font-family: "Roboto", sans-serif;
+}
+
+.help {
+    min-height: 210px;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.support_email {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #0f5f5c;
+    font-family: "Roboto", sans-serif;
+}
+/* home pricing. End*/

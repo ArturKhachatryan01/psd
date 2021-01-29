@@ -1,0 +1,30 @@
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+    .plan {
+        min-width: 245px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .plan_benefits {
+        justify-content: center;
+    }
+
+    .help .description {
+        text-align: center;
+    }
+
+    .download_text {
+        margin: 0;
+    }
+}
+
+@media (max-width: 520px ) {
+    .inner_pricing_and_plan .section_title{
+        font-size: 25px;
+    }
+}

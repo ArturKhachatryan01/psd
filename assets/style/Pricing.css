@@ -1,0 +1,157 @@
+.header {
+    background-color: #eef1ec;
+}
+
+.header_inner {
+    border-bottom: 1px solid #83a7a5;
+}
+
+.middle_line{
+    background-color: #83a7a5;
+}
+
+.fa.fa-phone.fa-rotate-90 {
+    color: #c5cdcd;
+}
+
+.header_tel, .nav > a{
+    color: #83a7a5;
+}
+
+.nav a:hover {
+    color: #0f5f5c;
+    text-shadow: 0 0 20px #6fb048, 0 0 20px #6fb048, 0 0 20px #6fb048, 0 0 20px #6fb048;
+}
+
+.nav input[type=button]{
+    background-color: #7e8f8f;
+}
+
+.nav input[type="button"]:hover {
+    color: #7e8f8f;
+    background: #ffffff;
+}
+
+.pricing_and_plan {
+    padding: 50px 0;
+    background-color: #eef1ec;
+}
+
+.pricing_and_plan .section_title{
+    white-space: pre-line;
+    text-align: center;
+    line-height: unset;
+}
+
+.pricing_and_plan .description{
+    text-align: center;
+}
+
+.plans {
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.plan {
+    width: 245px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #c1d3d1;
+    padding: 15px 0;
+}
+
+.plan_name {
+    font-size: 15px;
+    line-height: 20px;
+    color: #6fb048;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.plan_price {
+    position: relative;
+    font-size: 65px;
+    line-height: 108px;
+    color: #0f5f5c;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.plan_conditions {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 28px;
+    color: #83a7a5;
+    font-family: "Roboto", sans-serif;
+    white-space: pre-line;
+    text-align: center;
+}
+
+.plan input[type="button"] {
+    width: 140px;
+    height: 42px;
+    border-radius: 2px;
+    background-color: #83a7a5;
+    font-size: 13px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.plan input[type="button"]:hover {
+    background-color: #ffffff;
+    color: #83a7a5;
+}
+
+.included_plans {
+    margin: 70px 0 20px 0;
+    display: flex;
+}
+
+.plan_benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mark_text{
+    position: relative;
+    left: 30px;
+    width: 300px;
+    height: 35px;
+}
+
+.mark_text:before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -30px;
+    background-image: url(../images/icons/check_mark.png);
+}
+
+.help {
+    min-height: 240px;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.help .section_title{
+    text-align: center;
+}
+
+.support_email {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #0f5f5c;
+    font-family: "Roboto", sans-serif;
+}

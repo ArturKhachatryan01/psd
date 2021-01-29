@@ -1,0 +1,175 @@
+.middle_line{
+    background-color: #83a7a5;
+}
+
+.fa.fa-phone.fa-rotate-90 {
+    color: #83a7a5;
+}
+
+.header_tel, .nav > a{
+    color: #83a7a5;
+}
+
+.nav a:hover {
+    color: #0f5f5c;
+    text-shadow: 0 0 20px #6fb048, 0 0 20px #6fb048, 0 0 20px #6fb048, 0 0 20px #6fb048;
+}
+
+.nav input[type=button]{
+    background-color: #6fb048;
+}
+
+.nav input[type="button"]:hover {
+    color: #6fb048;
+    background: #ffffff;
+}
+
+.map {
+    height: 400px;
+    background-image: url(../images/map.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(1);
+}
+
+.contact_us_inner {
+    padding: 80px 0 100px 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input[type="text"], textarea[name="message"] {
+    min-width: 275px;
+    max-width: 90vw;
+    font-size: 14px;
+    color: #83a7a5;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    filter: drop-shadow(0px 1px 1px rgba(0,0,0,0.12));
+    background-color: #ffffff;
+    border: 1px solid #c1d3d2;
+}
+
+form input[type="text"] {
+    width: 510px;
+    height: 46px;
+    padding-left: 10px;
+}
+
+form textarea[name="message"] {
+    width: 510px;
+    height: 124px;
+    padding: 10px;
+    resize: none;
+}
+
+form input[type="button"] {
+    width: 192px;
+    height: 42px;
+    border-radius: 3px;
+    background-color: #6fb048;
+    font-size: 13px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+form input[type="button"]:hover{
+    color: #6fb048;
+    background-color: #ffffff;
+}
+
+input[type="text"], textarea {
+    margin-bottom: 25px;
+}
+
+.office {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 340px;
+    height: 270px;
+    padding: 35px;
+    border: 1px dotted #c1d3d2;
+    background-color: #ffffff;
+}
+
+.office_head {
+    white-space: pre-line;
+    font-size: 22px;
+    line-height: 21px;
+    color: #0f5f5c;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+.office_info p {
+    margin-left: 25px;
+    position: relative;
+}
+
+.office_address {
+    font-size: 15px;
+    line-height: 22px;
+    color: #83a7a5;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 30px;
+}
+
+.office_address:before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/icons/Address.png);
+    width: 14px;
+    height: 20px;
+    left: -23px;
+}
+
+.office_phone {
+    font-size: 15px;
+    line-height: 22px;
+    color: #83a7a5;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 15px;
+}
+
+.office_phone:before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/icons/Allo.png);
+    width: 16px;
+    height: 16px;
+    left: -23px;
+}
+
+.office_mail {
+    font-size: 15px;
+    line-height: 21px;
+    color: #0f5f5c;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.office_mail:before {
+    content: "";
+    position: absolute;
+    left: -25px;
+    background-image: url(../images/icons/Message.png);
+    width: 18px;
+    height: 12px;
+    bottom: 4px;
+}

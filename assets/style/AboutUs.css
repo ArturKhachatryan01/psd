@@ -1,0 +1,177 @@
+.intro_background {
+    position: absolute;
+    filter: grayscale(20%);
+    top: 0;
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/Layer29.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -10;
+}
+
+.intro_background:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #2d6e70cc;
+}
+
+/*home and about header colors. Start*/
+.header{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #00000099 100%);
+}
+
+.header_inner{
+    border-bottom: 1px solid #ffffff;
+}
+
+.middle_line{
+    background-color: #ffffff;
+}
+
+.fa.fa-phone.fa-rotate-90 {
+    color: #c5cdcd;
+}
+
+.header_tel, .nav > a{
+    color: #ffffff;
+}
+
+.nav a:hover {
+    color: #0f5f5c;
+    text-shadow: 0 0 20px #6fb048, 0 0 20px #6fb048, 0 0 20px #6fb048, 0 0 20px #6fb048;
+}
+
+.nav input[type="button"]{
+    background-color: #7e8f8f;
+}
+
+.nav input[type="button"]:hover {
+    color: #7e8f8f;
+    background: #ffffff;
+}
+/*home and about header colors. End*/
+
+
+.intro {
+    height: 515px;
+}
+
+.intro_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 60px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.intro_inner input[type="button"] {
+    width: 230px;
+    height: 50px;
+    border-radius: 2px;
+    background-color: #6fb048;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* home and about features/about. Start*/
+.about_inner {
+    padding: 95px 0 125px 0;
+}
+
+.about_inner .description{
+    text-align: center;
+}
+
+.tools {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.tool {
+    width: 310px;
+    margin: 0 10px 30px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner_features.description{
+    max-width: 440px;
+}
+
+.tool .description{
+    text-align: center;
+}
+
+.tool .ico_title{
+    margin: 20px 0;
+}
+/* home and about features/about. End*/
+
+/* about team. Start*/
+.our_team{
+    background-color: #eef1ec;
+    padding: 80px 0;
+}
+
+.team_inner > .section_titels > .description{
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-top: 100px;
+}
+
+.teammate {
+    margin: 10px;
+}
+
+.teammate_image {
+    max-height: 200px;
+}
+
+.teammate_name {
+    font-size: 15px;
+    color: #0f5f5c;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0 3px 0;
+}
+/* about team. End*/
+
+/* download change*/
+.download_container{
+    background-image: url(../images/download_background.jpg);
+}
+
+.download_head {
+    color: #ffffff;
+}
+
+.download_info {
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}

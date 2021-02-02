@@ -37,7 +37,7 @@
     background-color: #eef1ec;
 }
 
-.pricing_and_plan .section_title{
+.pricing_and_plan  h2{
     white-space: pre-line;
     text-align: center;
     line-height: unset;
@@ -144,7 +144,7 @@
     align-items: center;
 }
 
-.help .section_title{
+.help  h2{
     text-align: center;
 }
 

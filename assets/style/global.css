@@ -29,7 +29,7 @@ input[type="button"] {
     color: rgb(15, 95, 92);
 }
 
-.section_title {
+ h2 {
     font-size: 32px;
     line-height: 20px;
     font-weight: 300;

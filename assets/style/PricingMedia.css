@@ -24,7 +24,7 @@
 }
 
 @media (max-width: 520px ) {
-    .inner_pricing_and_plan .section_title{
+    .inner_pricing_and_plan  h2{
         font-size: 25px;
     }
 }

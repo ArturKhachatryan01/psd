@@ -260,15 +260,19 @@ input[type="button"] {
     object-fit: contain;
 }
 
-
 /* global media. Start */
 @media (max-width: 1199px) {
     .container{
-        width: 90%;
+        max-width: 1140px;
+        padding: 0 5%;
     }
 }
 
 @media (max-width: 991px) {
+    .container{
+        max-width: 960px;
+    }
+
     .header_info > *:not(.header_logo){
         display: none;
     }
@@ -280,6 +284,10 @@ input[type="button"] {
 }
 
 @media (max-width: 767px) {
+    .container{
+        max-width: 720px;
+    }
+
     .nav input[type="button"] {
         display: none;
     }

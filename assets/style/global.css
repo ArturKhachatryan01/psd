@@ -4,14 +4,17 @@
     margin: 0 auto;
 }
 
-input[type="button"] {
-    transition: color 1s linear 0s,
-                background-color 1s linear 0s;
+@keyframes buttonLight {
+    0% {
+        background-position-x: 20%;
+    }
+    100% {
+        background-position: 220%
+    }
 }
 
-.download input[type="button"]:hover {
-    color: #49732f;
-    background: #ffffff;
+input[type="button"]:hover {
+    animation: buttonLight 1s linear infinite ;
 }
 
 /* global fonts. Start*/
@@ -133,7 +136,9 @@ input[type="button"] {
 .download input[type="button"] {
     padding: 10px 20px;
     border-radius: 2px;
-    background-color: #49732f;
+    background: linear-gradient(90deg, rgb(73, 115, 47) 0%, rgba(255, 255, 255, 1) 5%, rgb(73, 115, 47) 10%);
+    background-position-x: 20%;
+    background-size: 200%;
     font-size: 13px;
     line-height: 22px;
     color: #ffffff;

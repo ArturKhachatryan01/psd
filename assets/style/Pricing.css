@@ -24,12 +24,9 @@
 }
 
 .nav input[type=button]{
-    background-color: #7e8f8f;
-}
-
-.nav input[type="button"]:hover {
-    color: #7e8f8f;
-    background: #ffffff;
+    background: linear-gradient(90deg, rgb(126, 143, 143) 0%, rgba(255, 255, 255, 1) 5%, rgb(126, 143, 143) 10%);
+    background-position-x: 20%;
+    background-size: 200%;
 }
 
 .pricing_and_plan {
@@ -95,17 +92,14 @@
     width: 140px;
     height: 42px;
     border-radius: 2px;
-    background-color: #83a7a5;
+    background: linear-gradient(90deg, rgb(131, 167, 165) 0%, rgba(255, 255, 255, 1) 5%, rgb(131, 167, 165) 10%);
+    background-position-x: 20%;
+    background-size: 200%;
     font-size: 13px;
     line-height: 22px;
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
     text-align: center;
-}
-
-.plan input[type="button"]:hover {
-    background-color: #ffffff;
-    color: #83a7a5;
 }
 
 .included_plans {

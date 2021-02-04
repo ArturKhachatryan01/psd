@@ -44,12 +44,9 @@
 }
 
 .nav input[type=button]{
-    background-color: #7e8f8f;
-}
-
-.nav input[type="button"]:hover {
-    color: #7e8f8f;
-    background: #ffffff;
+    background: linear-gradient(90deg, rgb(126, 143, 143) 0%, rgba(255, 255, 255, 1) 5%, rgb(126, 143, 143) 10%);
+    background-position-x: 20%;
+    background-size: 200%;
 }
 /*home and about header colors. End*/
 
@@ -85,15 +82,12 @@
     width: 186px;
     height: 50px;
     border-radius: 2px;
-    background-color: #6fb048;
+    background: linear-gradient(90deg, rgb(111, 176, 72) 0%, rgba(255, 255, 255, 1) 5%, rgb(111, 176, 72) 10%);
+    background-position-x: 20%;
+    background-size: 200%;
     font-size: 14px;
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
-}
-
-.intro_inner input[type="button"]:hover{
-    color: #6fb048;
-    background-color: #ffffff;
 }
 
 .intro_inner > *{
@@ -345,18 +339,15 @@ p.plan_price:after {
     width: 140px;
     height: 42px;
     border-radius: 2px;
-    background-color: #83a7a5;
+    background: linear-gradient(90deg, rgb(131, 167, 165) 0%, rgba(255, 255, 255, 1) 5%, rgb(131, 167, 165) 10%);
+    background-position-x: 20%;
+    background-size: 200%;
     font-size: 13px;
     line-height: 22px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Montserrat", sans-serif;
     text-align: center;
-}
-
-.plan input[type="button"]:hover{
-    color: #83a7a5;
-    background-color: #ffffff;
 }
 
 .included_plans {

@@ -20,15 +20,15 @@
 }
 
 /*home and about header colors. Start*/
-.header{
+.header {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #00000099 100%);
 }
 
-.header_inner{
+.header_inner {
     border-bottom: 1px solid #ffffff;
 }
 
-.middle_line{
+.middle_line {
     background-color: #ffffff;
 }
 
@@ -36,23 +36,30 @@
     color: #c5cdcd;
 }
 
-.header_tel, .nav > a{
+.header_tel, .nav > a {
     color: #ffffff;
 }
 
 .nav a:hover {
     color: #0f5f5c;
-    text-shadow: 0 0 20px #6fb048, 0 0 20px #6fb048, 0 0 20px #6fb048, 0 0 20px #6fb048;
+    text-shadow: 0 0 20px #ffffff, 0 0 20px #ffffff, 0 0 20px #ffffff, 0 0 20px #ffffff;
 }
 
-.nav input[type="button"]{
-    background-color: #7e8f8f;
+.nav input[type="button"] {
+    background: linear-gradient(90deg, rgb(126, 143, 143) 0%, rgba(255, 255, 255, 1) 5%, rgb(126, 143, 143) 10%);
+    background-position-x: 20%;
+    background-size: 200%;
 }
 
-.nav input[type="button"]:hover {
-    color: #7e8f8f;
-    background: #ffffff;
+@keyframes buttonLight {
+    0% {
+        background-position-x: 20%;
+    }
+    100% {
+        background-position: 220%
+    }
 }
+
 /*home and about header colors. End*/
 
 
@@ -82,7 +89,9 @@ h1 {
     width: 230px;
     height: 50px;
     border-radius: 2px;
-    background-color: #6fb048;
+    background: linear-gradient(90deg, rgb(111, 176, 72) 0%, rgba(255, 255, 255, 1) 5%, rgb(111, 176, 72) 10%);
+    background-position-x: 20%;
+    background-size: 200%;
     font-size: 14px;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
@@ -93,7 +102,7 @@ h1 {
     padding: 95px 0 125px 0;
 }
 
-.about_inner .description{
+.about_inner .description {
     text-align: center;
 }
 
@@ -112,26 +121,27 @@ h1 {
     align-items: center;
 }
 
-.inner_features.description{
+.inner_features.description {
     max-width: 440px;
 }
 
-.tool .description{
+.tool .description {
     text-align: center;
 }
 
-.tool .ico_title{
+.tool .ico_title {
     margin: 20px 0;
 }
+
 /* home and about features/about. End*/
 
 /* about team. Start*/
-.our_team{
+.our_team {
     background-color: #eef1ec;
     padding: 80px 0;
 }
 
-.team_inner > .section_titels > .description{
+.team_inner > .section_titels > .description {
     text-align: center;
 }
 
@@ -158,10 +168,11 @@ h1 {
     font-family: 'Roboto', sans-serif;
     margin: 10px 0 3px 0;
 }
+
 /* about team. End*/
 
 /* download change*/
-.download_container{
+.download_container {
     background-image: url(../images/download_background.jpg);
 }
 

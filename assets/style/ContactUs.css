@@ -16,12 +16,9 @@
 }
 
 .nav input[type=button]{
-    background-color: #6fb048;
-}
-
-.nav input[type="button"]:hover {
-    color: #6fb048;
-    background: #ffffff;
+    background: linear-gradient(90deg, rgb(111, 176, 72) 0%, rgba(255, 255, 255, 1) 5%, rgb(111, 176, 72) 10%);
+    background-position-x: 20%;
+    background-size: 200%;
 }
 
 .map {
@@ -77,18 +74,15 @@ form input[type="button"] {
     width: 192px;
     height: 42px;
     border-radius: 3px;
-    background-color: #6fb048;
+    background: linear-gradient(90deg, rgb(111, 176, 72) 0%, rgba(255, 255, 255, 1) 5%, rgb(111, 176, 72) 10%);
+    background-position-x: 20%;
+    background-size: 200%;
     font-size: 13px;
     line-height: 22px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Montserrat", sans-serif;
     text-align: center;
-}
-
-form input[type="button"]:hover{
-    color: #6fb048;
-    background-color: #ffffff;
 }
 
 input[type="text"], textarea {
